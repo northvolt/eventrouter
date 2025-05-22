@@ -15,7 +15,7 @@
 TARGET = eventrouter
 GOTARGET = github.com/heptiolabs/$(TARGET)
 BUILDMNT = /src/
-REGISTRY ?= gcr.io/heptio-images
+REGISTRY ?= corelab
 VERSION ?= v0.3
 IMAGE = $(REGISTRY)/$(BIN)
 BUILD_IMAGE ?= golang:1.12.9

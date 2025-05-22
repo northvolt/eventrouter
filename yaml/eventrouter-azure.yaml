@@ -72,7 +72,7 @@ spec:
     spec:
       containers:
         - name: kube-eventrouter
-          image: gcr.io/heptio-images/eventrouter:latest
+          image: corelab/eventrouter:latest
           imagePullPolicy: Always
           volumeMounts:
           - name: config-volume
